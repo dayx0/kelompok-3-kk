@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas KK RPL Hosting</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #ff9dd3;
+      padding: 30px;
+      margin: 0;
+    }
+
+    h1, h2 {
+      text-align: center;
+      color: #e82525;
+    }
+
+    /* Kotak utama */
+    .biodata-container {
+      background-color: #fff;
+      border: 3px solid #ff66b2;
+      border-radius: 15px;
+      padding: 20px 40px;
+      max-width: 700px;
+      margin: 30px auto;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    /* Card anggota */
+    .anggota {
+      display: flex;
+      align-items: center;
+      background: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+      margin: 15px 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+    }
+
+    /* Efek hover agar menonjol */
+    .anggota:hover {
+      transform: scale(1.03);
+      background-color: #fff5f8;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+    }
+
+    .anggota img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-right: 20px;
+      border: 2px solid #ddd;
+      transition: transform 0.3s ease;
+    }
+
+    /* Efek gambar ikut membesar saat hover */
+    .anggota:hover img {
+      transform: scale(1.05);
+    }
+
+    .biodata p {
+      margin: 6px 0;
+      font-size: 16px;
+    }
+
+    .biodata span {
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* Responsif untuk tampilan HP/tablet */
+    @media (max-width: 600px) {
+      .anggota {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .anggota img {
+        margin: 0 0 10px 0;
+      }
+
+      .biodata p {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Biodata Kelompok 3</h1>
+
+  <div class="biodata-container">
+    <h2>Nama-nama Anggota</h2>
+
+    <div class="anggota">
+      <img src="dayah.jpg" alt="Foto 1">
+      <div class="biodata">
+        <p><span>Nama:</span> Siti Nurhidayah</p>
+        <p><span>NIS:</span> 123456</p>
+        <p><span>Alamat:</span> Jl. Madu Sari Rt 5/ Rw 3</p>
+      </div>
+    </div>
+
+    <div class="anggota">
+      <img src="naila.jpg" alt="Foto 2">
+      <div class="biodata">
+        <p><span>Nama:</span> Naila Khaerunnisa</p>
+        <p><span>NIS:</span> 789012</p>
+        <p><span>Alamat:</span> Jl. Samanhudi Desa Debong Wetan Rt 5/ Rw 2</p>
+      </div>
+    </div>
+
+    <div class="anggota">
+      <img src="Wildan.jpg" alt="Foto 3">
+      <div class="biodata">
+        <p><span>Nama:</span> Muhammad Wildan Nizar</p>
+        <p><span>NIS:</span> 654321</p>
+        <p><span>Alamat:</span> Jl. Teuku Cik Ditiro Rt 14/ Rw 5</p>
+      </div>
+    </div>
+
+    <div class="anggota">
+      <img src="in.jpg" alt="Foto 4">
+      <div class="biodata">
+        <p><span>Nama:</span> Intan Sekar Putri Lestari</p>
+        <p><span>NIS:</span> 789012</p>
+        <p><span>Alamat:</span> Jl. Melati No. 3</p>
+      </div>
+    </div>
+
+    <div class="anggota">
+      <img src="iq.jpg" alt="Foto 5">
+      <div class="biodata">
+        <p><span>Nama:</span> Muhammad Iqbal</p>
+        <p><span>NIS:</span> 789012</p>
+        <p><span>Alamat:</span> Jl. Melati No. 3</p>
+      </div>
+    </div>
+
+    <div class="anggota">
+      <img src="azka.jpg" alt="Foto 6">
+      <div class="biodata">
+        <p><span>Nama:</span> Muhammad Azka Aqif Arroyan</p>
+        <p><span>NIS:</span> 789012</p>
+        <p><span>Alamat:</span> Jl. Melati No. 3</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>
